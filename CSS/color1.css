@@ -1,0 +1,65 @@
+
+div{
+    background-color: #1c1c1c;
+}
+
+.color{
+    color: crimson;
+
+}
+
+h1 {
+    text-align: center;
+    text-decoration: overline;
+}
+.colorfigcaption{
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: white;
+}
+.noticia {
+    width: 90%;
+    height: 90%;
+    margin: 20px ;
+    padding: 15px;
+    color: white;
+  }
+  
+  .noticia img.izquierda {
+    float: left;
+    margin-right: 15px;
+    width:200px;
+    height:250px;
+  }
+.lanatitulo {
+    margin: auto;
+  width: 640px; 
+  padding: 50px;
+}
+.musica {
+  width: 90%;
+  height: 90%;
+  margin: -15px ;
+  padding: 15px;
+  color: white;
+}
+
+.musica img.music{
+  float: left;
+  margin-right: 15px;
+  width:200px;
+  height:250px;
+}
+.spotify {
+  width: 40%;
+  height: 40%;
+  margin: -15px ;
+  padding: 15px;
+  color: white;
+}
+a {
+  background-color: rgb(255, 254, 254);
+  display: inline-block;
+}
