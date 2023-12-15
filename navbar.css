@@ -1,0 +1,32 @@
+.nav-enlace {
+    display: inline-block;
+    background: rgb(128, 0, 94);
+    color: azure;
+    padding: 10px 30px;
+}
+.nav-enlace:hover {
+    background: mediumvioletred;
+}
+nav {
+    background: lightpink;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 600px) {
+    nav {
+        background: rgb(177, 76, 184);
+        flex-direction: column;
+    }
+    .nav-enlace {
+        margin: 10px 0;
+        display: inline-block;
+    }
+}
+.nav-boton {
+    background: rgb(255, 0, 217);
+    color: azure;
+    padding: 10px 0;
+    border: 2px solid rgb(79, 47, 76);
+    display: none;
+}
